@@ -1,0 +1,110 @@
+<html>
+<head>
+<title> Lab 3 </title>
+<script src="scripts/processing.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+
+void setup(){
+
+size( 500, 500 );
+background(0,0,0);
+frameRate( 30 );
+
+strokeCap(SQUARE);
+stroke(255,0,0);
+strokeWeight(40);
+line(0,50,500,50);
+line(20,50,20,500);
+line(30,480,500,480);
+line(480,50,480,500);
+stroke(255,255,255);
+strokeCap(SQUARE);
+
+strokeWeight(40);
+line(250,129,418,129);
+line(166,207,250,207);
+line(40,129,166,129);
+line(40,285,418,285);
+line(376,246,460,246);
+line(208,402,418,402);
+
+strokeWeight(42);
+line(62,110,62,460);
+line(146,110,146,226);
+line(271,226,271,110);
+line(313,265,313,420);
+
+
+stroke(0,255,255)
+strokeWeight(1);
+line(40,70,40,460);
+line(40,70,460,70);
+line(40,460,460,460);
+line(460,70,460,460);
+stroke(0,255,255)
+strokeWeight(1);
+line(82,70,82,460);
+line(124,70,124,460);
+line(166,70,166,460);
+line(208,70,208,460);
+line(250,70,250,460);
+line(292,70,292,460);
+line(334,70,334,460);
+line(376,70,376,460);
+line(418,70,418,460);
+stroke(0,255,255)
+strokeWeight(1);
+line(40,109,460,109);
+line(40,148,460,148);
+line(40,187,460,187);
+line(40,226,460,226);
+line(40,265,460,265);
+line(40,304,460,304);
+line(40,343,460,343);
+line(40,382,460,382);
+line(40,421,460,421);
+
+
+
+
+fill(0,0,0);
+textSize(20)
+text("start",40,450);
+text("end",410,250);
+textSize(50);
+text("MAZE",200,70);
+strokeWeight(5);
+stroke(255,153,51);
+line(0,0,500,0);
+stroke(255,255,0);
+line(0,5,500,5);
+stroke(128,255,0);
+line(0,10,500,10);
+stroke(0,255,255);
+line(0,15,500,15);
+stroke(0,0,255);
+line(0,20,500,20);
+stroke(255,0,255);
+line(0,25,500,25);
+ PImage b;
+
+    b = loadImage("A.png");
+
+    image(b, 250, 250);
+
+}
+
+
+void draw()
+{
+
+}
+
+</script>
+<canvas id="mycanvas"></canvas>
+</head>
+
+<body>
+
+</body>
+</html>
